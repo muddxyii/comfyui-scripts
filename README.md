@@ -2,9 +2,21 @@
 Simple scripts to install, update and run ComfyUI.
 
 ## Prerequisites
-Install Python 3.10 on Fedora:
+Install Python 3.10 according to your distribution:
+
+#### Fedora
 ```bash
 sudo dnf install python3.10
+```
+
+#### Ubuntu/Debian
+```bash
+sudo apt install python3.10 python3.10-venv
+```
+
+#### Arch
+```bash
+sudo pacman -Sy python310
 ```
 
 ## Scripts
